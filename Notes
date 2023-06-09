@@ -1,0 +1,42 @@
+Authentication : The identity of users are checked for providing the access to the system. User is verified. Validating that users are whom they claim to be.
+
+Authorization : Giving the users permission to access a specific resource or function.
+
+Filter : A filter is an object that is invoked at the preprocessing and postprocessing of a request.
+
+Filter Authentication -> Authentication Manager -> Provider Manager -> Authentication Provider
+
+
+WebSecurityConfigurerAdapter -> Version 2.7.0 / parent version -> 2.6.5
+
+Password Encoder -> NoOpPasswordEncoder, BCryptPasswordEncoder
+
+Ant Matcher
+
+CSRF Token - Cross Site Request Forgery -
+
+Authentications :
+
+Basic Authentication
+Role Based Authentication
+Form Based Authentication
+
+In memory authentication
+user roles
+database connection
+
+
+
+------- Java Brains ----------
+
+Username/Password authentication
+SSO/Okta/LDAP
+App level authentication
+Intra app authorization
+microservice security (using tokens, JWT)
+method level security
+
+Authentication - Who Are You?
+Authorization - Can this user do this?
+
+
